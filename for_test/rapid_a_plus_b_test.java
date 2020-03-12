@@ -2,12 +2,14 @@ package for_test;
 
 import java.io.*;
 
-public class rapid_a_plus_b {
+public class rapid_a_plus_b_test {
     public static void main(String[] args) throws IOException {
 
            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int num = Integer.parseInt(br.readLine());
+        int T = Integer.parseInt(br.readLine());
+
         br.close();
 
         String line ="";
